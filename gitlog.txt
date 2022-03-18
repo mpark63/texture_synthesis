@@ -1,0 +1,529 @@
+commit 49085684b10bed2d23d54887dca441c46a67222f
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 14:23:16 2022 -0400
+
+    initial submission
+
+commit 6f8db436c83990de6b716dcc95eee7ff94eed4ba
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 14:00:07 2022 -0400
+
+    tbsCount works
+
+commit 1b2f94320dce91ec0bc836b28e1a20426fcaacdc
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 14 11:05:08 2022 -0400
+
+    freed image
+
+commit 0afc6349b458b2d90cad21d42f0f0bc86da8ea22
+Merge: fd0be99 7d3a69b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 11:02:37 2022 -0400
+
+    merging
+
+commit fd0be990e5e4a40a941e7c5f9cfd409edc12b70f
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 11:01:10 2022 -0400
+
+    freeing
+
+commit 7d3a69bf44e3f82d4ddf1f5996d799062a481c6b
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 14 11:00:15 2022 -0400
+
+    fixed memory leak errors
+
+commit f7ab9439aa22382e7743657616a825cdcd880cdd
+Merge: 1fd6973 b83eb85
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 14 10:34:30 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit b83eb85f6f86da196ee2bcf5484e2d37faa21b79
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 10:34:19 2022 -0400
+
+    removed .o
+
+commit 1fd697319afe00e3bcd402fdb1b443f8ac0b109d
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 14 10:33:45 2022 -0400
+
+    fixed AllocateImage to allocate all alpha channels into 0
+
+commit da7e7c465d3f4ab366940df5bed0b796ad7fb3fc
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Mon Mar 14 10:33:14 2022 -0400
+
+    texture_synthesis.h changes
+
+commit ac7a0f2a18548768d808a2408f4214c530be930b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 23:10:41 2022 -0400
+
+    fixed x y swapped issue
+
+commit 65ff0e57a8606ed9bed2f5ebf7ca0df179d79a74
+Merge: 537749e a319bc2
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 21:54:13 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit 537749e6fc9b2c2d72c8376d5704102143523f68
+Merge: 109928d cf40d26
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 21:54:10 2022 -0400
+
+    merging
+
+commit a319bc2baed129abedc8400e069303abb25620de
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 21:50:28 2022 -0400
+
+    removed the matches == 0 condition that causes tbsCount to freeze
+
+commit 109928ddd2aa8bf5e165b3a7044dd0a807797106
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 21:49:40 2022 -0400
+
+    trying to optimize findMatches
+
+commit cf40d266219bf0ff4d0b63422054738f870c1134
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 21:46:11 2022 -0400
+
+    modified RandomPick
+
+commit 025dbb1141bb5380fc32d477d469b100f26d884f
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 21:23:36 2022 -0400
+
+    wrote helper function RandomPick
+
+commit 2f7ad0a7ca1fc1ee8f73b15c000ebfa985a0c0e4
+Merge: bf33808 61987af
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 19:49:23 2022 -0400
+
+    merging again
+
+commit bf338082e1ae2a593e02e35b90af3dbda289e006
+Merge: be27be3 b9bbebf
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 19:47:57 2022 -0400
+
+    merging
+
+commit 61987af84c866d292e33ab236cb95d4b63da1d72
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 19:47:28 2022 -0400
+
+    made alpha values of tbs change
+
+commit be27be33d67152438dfa23277b79a37308e844bb
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 19:47:00 2022 -0400
+
+    for loop in SynethesizeFromExemplar
+
+commit b9bbebf92f74899a0afe1009f440d8fb9eb8bc7f
+Merge: fac748b 5687e83
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 19:09:51 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit fac748b803a64ee3b4c21f9759e251ffe5cce7c4
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 13 19:09:46 2022 -0400
+
+    merge
+
+commit 5687e83634ae898bf31f3ed58333df7cc8e9b162
+Merge: a843fc7 5321323
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 19:00:22 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit a843fc78ddff4cee3ffa8bbb68a350129bb3f85b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 13 19:00:09 2022 -0400
+
+    merging
+
+commit 5321323e9169a63639815f33b9ed1ab77d318adf
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 21:32:10 2022 -0500
+
+    fixed compilation errors
+
+commit d3da72a2cc9968df65e421e92b1fedfd6028121b
+Merge: 1cfed02 cfe7a85
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 12 21:30:01 2022 -0500
+
+    merging
+
+commit 1cfed024d59defa035ee0cb2ed35203a6f96c7cd
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 12 21:27:41 2022 -0500
+
+    getNeighborhoodWindow works finally
+
+commit cfe7a85440db7f6443b50de67fdda9bd72ecee1d
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 21:27:04 2022 -0500
+
+    fixed compilation errors and added print statements
+
+commit dca6fb7aea0a71a7e91ec62db6c4b0c29f13b5b0
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 21:18:13 2022 -0500
+
+    wrote main with print statements
+
+commit 14addd8dcc70f948d9f87ec0a44e271ca5657516
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 20:27:58 2022 -0500
+
+    fixed some comments
+
+commit 7cbdda3856a9e10a0f2aa5c33b0ab7a557d052cf
+Merge: 2bdabbd 6f70106
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 20:14:47 2022 -0500
+
+    merged
+
+commit 2bdabbd19f3e6bf7b4d4888839c9b144257b9c9a
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 12 20:11:52 2022 -0500
+
+    merge
+
+commit 6f701061e486d557d3a943923c8627429d6c6108
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Fri Mar 11 18:29:33 2022 -0500
+
+    removed .o files
+
+commit c4f4be4c412642749fce05f6554be001756d9be6
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Fri Mar 11 18:28:49 2022 -0500
+
+    testing and fixing errors
+
+commit 648bb9a53db9ed1676b70f7ba54c96e24d7682b6
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Fri Mar 11 15:34:15 2022 -0500
+
+    wrote compareWindows function
+
+commit 4996c501654740435f27c0ed9d21069a6f79ef99
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Thu Mar 10 00:53:27 2022 -0500
+
+    revising
+
+commit 5e9d59a15af9ed5b83d279e9d7490d92f525005e
+Merge: 2e556fb 17d585b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 23:10:51 2022 -0500
+
+    merging
+
+commit 2e556fbb1c4407f27f89b00d930d7a28441cf898
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 23:09:14 2022 -0500
+
+    adding descriptions to functions
+
+commit 17d585b611ad0c8a5eb3ab044980e5f869e92319
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 23:08:34 2022 -0500
+
+    started typing the function CalculateDiff
+
+commit 3c21343138ba6770e23677d45b22a628a78352e6
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:23:01 2022 -0500
+
+    changed all tWindow to template
+
+commit abd9a2718ca4c05c3e8dc817519c354b726b1471
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:15:32 2022 -0500
+
+    output of ppm
+
+commit e1d861d95ed2d98a63b446eb27790a0c8d2ba27e
+Merge: 0f6aaf4 20753da
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:14:06 2022 -0500
+
+    merging
+
+commit 0f6aaf4088049c04ecf34c6d74f86cb8007d821b
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:11:07 2022 -0500
+
+    fixed a compilation error regarding type of template
+
+commit e2eaaa6ef543f00881c216836894f011ee361603
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:09:55 2022 -0500
+
+    modified Makefile and created test.c to test for all cases for ppm and all PASSed!
+
+commit 22d6481825728b0cc34864935e75b5a7aac2f734
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:09:21 2022 -0500
+
+    modified Makefile and created test.c to test for all cases for ppm and all PASSed!
+
+commit b2e061a8985ef2e1892dddb6e4d1884afdda0b84
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 22:08:08 2022 -0500
+
+    modified Makefile and created test.c to test for all cases for ppm and all PASSed!
+
+commit 20753da550c38669781dc50e9e4195b3a71311e6
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 22:06:28 2022 -0500
+
+    implementing FindMatches
+
+commit 3fc45fec1dcb896e496c6e3ccda4611ed11f993e
+Merge: 614a624 c161e93
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 14:14:20 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit 614a624023339f6205f8db5437919a97067555cb
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Wed Mar 9 14:14:03 2022 -0500
+
+    fixed executable, now working with no errors
+
+commit c161e93a0639bb58d5004e8ada3b46b204df6221
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 14:13:43 2022 -0500
+
+    wrote getNeighborhoodWindow function
+
+commit 4b867f9b4c28d27870cd78baeceff8b28d467ab7
+Merge: 6b70378 95d0a07
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 13:45:06 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit 6b70378f241db42d8e45a45b0252333c2b1e65d7
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Wed Mar 9 13:44:49 2022 -0500
+
+    pseudocode for reference
+
+commit 95d0a07aa48290f78c4839f2c1e123d220438980
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 7 10:48:11 2022 -0500
+
+    fixed compilation errors caused by comparing int to signed ints outWidth and outHeight
+
+commit 72097d56c7a2e0644b2379779bb005d2e3a4c2ad
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 7 10:32:45 2022 -0500
+
+    updated compilation of texture_synthesis.c
+
+commit cb1712c665c64785af4c048f840c95f9876efe9a
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 7 10:30:29 2022 -0500
+
+    added image header to texture_synthesis.c
+
+commit bcad134e63311b35470d02c29f7e828164bda5cc
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Mon Mar 7 10:29:10 2022 -0500
+
+    changed maxNumTBS
+
+commit 5a9e60c4b257f07ff87ef1feaca68680b59805b2
+Merge: c67c05b a9395a6
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:36:49 2022 -0500
+
+    merging 103
+
+commit c67c05b4ee24b6d375580718592e69273aa6f848
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:35:44 2022 -0500
+
+    merging 102
+
+commit a9395a6bd6785e412b933a86bb55c66c50a06d8c
+Merge: d019e5a aa3a9e8
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:34:33 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit d019e5a31a8f5eb7cfb23d0b244ade3293e51bab
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:34:24 2022 -0500
+
+    merging22
+
+commit aa3a9e8ab51eda0c826065bb6e19883bb95264c1
+Author: rawanelshobaky <98141016+rawanelshobaky@users.noreply.github.com>
+Date:   Mon Mar 7 05:33:54 2022 +0200
+
+    Update texture_synthesis.c
+
+commit a8d06c281a43fb0b13d4cd13cfdf0508081ee358
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:31:10 2022 -0500
+
+    merging 5
+
+commit 24f0ea812c1db42b8686561dbb857545356ccac9
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:30:38 2022 -0500
+
+    merging 5
+
+commit 374c594c4ec230b6539c71490e3f4f785a10cd87
+Merge: 6ae1b33 1602146
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:28:45 2022 -0500
+
+    merging???
+
+commit 6ae1b33250cbf44e40970d21a24637e5c92f1e4b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:27:13 2022 -0500
+
+    merging
+
+commit 16021463498fbf1e8a91347c276a47eeb087cb0c
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:25:28 2022 -0500
+
+    merging branches
+
+commit 30c4b371f93b7330b329867cabf0bff18a3144b4
+Merge: ace942d b019c9e
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:22:32 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit ace942de124cd8c194c8379a9f3193e4da6e8e52
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:22:27 2022 -0500
+
+    wrote getNeighborhoodWindow and getTBSPixels functions
+
+commit b64ebea4c909b51516025f100b413b8ca7d17a19
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 22:19:42 2022 -0500
+
+    wrote getNeighborhoodWindow and getTBSPixels functions
+
+commit b019c9e58974767bc782065bc3cc576868ca976d
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 22:17:22 2022 -0500
+
+    created synthesized image and added exemplar to it
+
+commit 56ee7b51773d631480198e66ea6f9176caa44af6
+Merge: 28219bc bb2dfd2
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 21:47:11 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit 28219bce598608f50a21c7031bfd2000be82b744
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 21:44:51 2022 -0500
+
+    started adding exemplar to synthesized in SynthesizeFromExemplar
+
+commit bb2dfd244db5b5eda6681f24f69ec5b886780419
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sun Mar 6 21:43:42 2022 -0500
+
+    identifying TBS pixels into TBSPixel pointer
+
+commit affc0d8da46a29b450493b92ca6ac4687661fc72
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sun Mar 6 21:40:50 2022 -0500
+
+    made texture_synthesis depend on image
+
+commit 89ca43e15c37682ea8edb322f5c0ed0a38db97a4
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 19:09:50 2022 -0500
+
+    passed idiff test yay
+
+commit e0383245a6f55d60c921e8c512bd9a2eaff7ddd5
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 5 18:55:02 2022 -0500
+
+    fixed orientation of width and height, etc.
+
+commit c4c73cfd9dfebe610a49c59dfe80d1ef805c1598
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 18:48:34 2022 -0500
+
+    ppm.c half working...
+
+commit a0957f2f2916477ce37bf8e76f028f41859eb057
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 5 18:27:42 2022 -0500
+
+    wrote helper functions AllocateImage and FreeImage in image.c
+
+commit d5ca273a706814fff01d5ab1520eccfad7b17d5b
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 17:59:46 2022 -0500
+
+    rearranging folder structure
+
+commit 99909185fb2275dffebf726d334d1b91b0661a65
+Merge: 3faee72 79dc048
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 17:58:01 2022 -0500
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-midterm-relshob1-mpark63
+
+commit 79dc0489c5e401d41ffd72d9765acc8b6ed18500
+Author: Rawan Elshobaky <relshob1@jh.edu>
+Date:   Sat Mar 5 17:56:23 2022 -0500
+
+    Wrote Makefile including executables image, ppm and texture_synthesis
+
+commit 3faee72e7240752815017de2fa50c27f80bb948d
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 17:53:10 2022 -0500
+
+    first draft of WritePPM function
+
+commit 206cb33535cc9cb1f1262f0875b852fa7b880461
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 17:15:20 2022 -0500
+
+    added starter files
+
+commit 603c3dd0ca126eb0eed33848b85879905ee2fa93
+Author: Minseo Park <mpark63@jhu.edu>
+Date:   Sat Mar 5 17:06:58 2022 -0500
+
+    first commit
